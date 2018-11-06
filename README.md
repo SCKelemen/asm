@@ -155,9 +155,9 @@ Assuming the HC153N:
 | or    | logical or | |
 | nor   | logical not or | |
 | xor   | logical xor | |
-| nxor  | logical not xor | |
+| nxr   | logical not xor | nxor |
 | and   | logical and | |
-| nand  | logical not and | |
+| nnd   | logical not and | nand |
 | inv   | invert | | 
 | shl   | shift left | |
 | shr   | shift right | | 
@@ -168,7 +168,8 @@ Assuming the HC153N:
 | ret   | return | rtn |
 | jz    | jump if zero | |
 | jc    | jump conditional / jump carry | |
-
+| mov   | move | move |
+| cpy   | copy | copy |
 
 Going to need some sort of load statements...
 and some fetch/decode statements...
