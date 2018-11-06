@@ -135,7 +135,7 @@ Hopefully I can do a similar thing with another bit for memory access.
 | hlt   | halt | stp |
 | rst   | reset | |
 | tck   | tick | adv / clk |
-| cll   | call | exc / exe / fun / fnc |
+| cll   | call | exc / exe / fun / fnc / call / func / exec |
 | ret   | return | rtn |
 | jz    | jump if zero | |
 | jc    | jump conditional / jump carry | |
@@ -144,3 +144,13 @@ Hopefully I can do a similar thing with another bit for memory access.
 Going to need some sort of load statements...
 and some fetch/decode statements...
 
+
+
+## Control Word
+
+### Flags
+
+| flag | name  | desc |
+| -----| ------| -----|
+| zf   | zero  | zero flag |
+| cf   | carry | carry flag |
