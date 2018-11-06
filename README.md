@@ -42,6 +42,35 @@ Hopefully I can do a similar thing with another bit for memory access.
 ## ALU
 
 ### Logic
+Assuming the HC153N:
+
+| s0 | s1 | nl0 | nl1 | nl2 | nl2 | nE- | nY |
+| ---| ---| ----| ----| ----| ----| ----| ---|
+| X  | X  |  X  |  X  |  X  |  X  |  H  |  L |
+| L  | L  |  L  |  X  |  X  |  X  |  L  |  L |
+| L  | L  |  H  |  X  |  X  |  X  |  L  |  H |
+| H  | L  |  X  |  L  |  X  |  X  |  L  |  L |
+| H  | L  |  X  |  H  |  X  |  X  |  L  |  H |
+| L  | H  |  X  |  X  |  L  |  X  |  L  |  L |
+| L  | H  |  X  |  X  |  H  |  X  |  L  |  H |
+| H  | H  |  X  |  X  |  X  |  L  |  L  |  L |
+| H  | H  |  X  |  X  |  X  |  H  |  L  |  H |
+
+
+| s0 | s1 | nl0 | nl1 | nl2 | nl2 | nE- | nY |
+| ---| ---| ----| ----| ----| ----| ----| ---|
+| X  | X  |  X  |  X  |  X  |  X  |  1  |  0 |
+| 0  | 0  |  0  |  X  |  X  |  X  |  0  |  0 |
+| 0  | 0  |  1  |  X  |  X  |  X  |  0  |  1 |
+| 1  | 0  |  X  |  0  |  X  |  X  |  0  |  0 |
+| 1  | 0  |  X  |  1  |  X  |  X  |  0  |  1 |
+| 0  | 1  |  X  |  X  |  0  |  X  |  0  |  0 |
+| 0  | 1  |  X  |  X  |  1  |  X  |  0  |  1 |
+| 1  | 1  |  X  |  X  |  X  |  0  |  0  |  0 |
+| 1  | 1  |  X  |  X  |  X  |  1  |  0  |  1 |
+
+
+
 
 | b | a | 3 | 2 | 1 | 0 | q | label |
 | --| --| --| --| --| --| --| ------|
