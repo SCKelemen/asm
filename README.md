@@ -134,7 +134,7 @@ Hopefully I can do a similar thing with another bit for memory access.
 | rshft | right shift | | 
 | hlt   | halt | stp |
 | rst   | reset | |
-| tck   | ticl | adv / clk |
+| tck   | tick | adv / clk |
 | cll   | call | exc / exe / fun / fnc |
 | ret   | return | rtn |
 | jz    | jump if zero | |
