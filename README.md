@@ -173,7 +173,8 @@ Assuming the HC153N:
 Going to need some sort of load statements...
 and some fetch/decode statements...
 
-
+fetch instruction  
+decode instruction
 
 ## Control Word
 
