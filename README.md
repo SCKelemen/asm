@@ -184,3 +184,20 @@ decode instruction
 | -----| ------| -----|
 | zf   | zero  | zero flag |
 | cf   | carry | carry flag |
+
+
+
+## Registers
+
+### General Purpose
+  Core0
+   - GPR0 A
+   - GPR1 B
+   - IR0
+   - SP0
+   
+  Core1
+   - GPR0 A
+   - GPR1 B
+   - IR1 
+   - SP1
