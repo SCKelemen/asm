@@ -159,8 +159,8 @@ Assuming the HC153N:
 | and   | logical and | |
 | nand  | logical not and | |
 | inv   | invert | | 
-| lsft  | left shift | |
-| rshft | right shift | | 
+| shl   | shift left | |
+| shr   | shift right | | 
 | hlt   | halt | stp |
 | rst   | reset | |
 | tck   | tick | adv / clk |
