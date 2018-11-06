@@ -34,6 +34,10 @@ By using bits 0-4 to target ALU-bound instructions, we can have some nice proper
 | ???  | 0001 1101 | 0x1D |              |      |
 | ???  | 0001 1110 | 0x1E |              |      |
 | ???  | 0001 1111 | 0x1F | One          | outputs one always |
+
+### Memory Ops
+Hopefully I can do a similar thing with another bit for memory access.
+
  
 ## ALU
 
@@ -108,4 +112,35 @@ By using bits 0-4 to target ALU-bound instructions, we can have some nice proper
 | 1 | 1 | 1 | 1 | 0 | 1 | ? | ???   |
 | 1 | 1 | 1 | 1 | 1 | 0 | ? | ???   |
 | 1 | 1 | 1 | 1 | 1 | 1 | ? | ???   |
+
+
+| Oper  | Description | alt |
+| ------| ------------| ----|
+| add   | add | |
+| sub   | subtract | |
+| mul   | multiply | |
+| div   | divide | |
+| mod   | modulo/remainder | rem |
+| inc   | increment | |
+| dec   | decrement | |
+| or    | logical or | |
+| nor   | logical not or | |
+| xor   | logical xor | |
+| nxor  | logical not xor | |
+| and   | logical and | |
+| nand  | logical not and | |
+| inv   | invert | | 
+| lsft  | left shift | |
+| rshft | right shift | | 
+| hlt   | halt | stp |
+| rst   | reset | |
+| tck   | ticl | adv / clk |
+| cll   | call | exc / exe / fun / fnc |
+| ret   | return | rtn |
+| jz    | jump if zero | |
+| jc    | jump conditional / jump carry | |
+
+
+Going to need some sort of load statements...
+and some fetch/decode statements...
 
