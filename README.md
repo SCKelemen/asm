@@ -8,7 +8,7 @@ I'm not sure about the endianness yet.
 
 | Oper | Binary    | Hex  | Description  | Note |
 | ---- | ---------:| ----:| -------------| -----|
-| NOP  | 0000 0000 | 0x00 | No Operation | Defualt/Zero codes do nothing |
+| NOP  | 0000 0000 | 0x00 | No Operation | Default/Zero codes do nothing |
 | TCK  | 0000 0001 | 0x01 | Tick         | Tick, 0x01 can be added to PC to advance |
 | HLT  | 0000 0010 | 0x02 | Halt         | Stop processing |
 | RST  | 0000 0011 | 0x03 | Reset        | Reset all modules |
